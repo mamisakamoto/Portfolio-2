@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Caffe 303 - ABOUT US</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Discover our local café's unique atmosphere and delicious menu. Enjoy expertly crafted coffee, freshly baked pastries, and a cozy ambiance. Visit us to experience the best in local café culture.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- ヘッダー -->
+        <header>
+            <!-- ロゴ -->
+            <a href="index.html" id="logo">
+                <img src="Image/index/CAFFE 303.png" alt="トップページに戻る">
+            </a>
+
+            <!-- PC用ナビゲーション -->
+            <nav id="nav-pc">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                </ul>
+            </nav>
+
+            <!-- スマホ用 -->
+            <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+                <img src="image/index/humberger.png" alt="ナビゲーションを開く">
+            </button>
+            <!-- スマホ用 -->
+            <div id="nav-sp">
+                <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                    <img src="image/index/close.png" alt="ナビゲーションを閉じる">
+                </button>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display='none'"><img src="Image/index/CAFFE 303.png" alt="トップページに戻る"></a>
+                        </li>
+                        <li><a class="menu" href="aboutus.html" onclick="document.getElementById('nav-sp').style.display='none'">ABOUT US</a></li>
+                        <li><a class="menu" href="contact.html" onclick="document.getElementById('nav-sp').style.display='none'">CONTACT</a></li>
+                        <li><a class="menu" href="menu.html" onclick="document.getElementById('nav-sp').style.display='none'">MENU</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <article>
+                <section id="main-visual">
+                    <div id="main-message">
+                        <h1>ABOUT US</h1>
+                        <p>Crafting memorable experiences with coffee and food since 2017.</p>
+                    </div>  
+                    <img src="image/aboutus/aboutus.jpg" ait="cafepicture">
+                </section>
+                <section class="welcome">
+                    <div class="welcome-message">
+                        <h1>- OUR STORY -</h1>
+                         <p>We opened our doors in 2017 with a simple mission: <br><b>to create a welcoming café experience in Vancouver.</b> Through passion and hard work, <br>we've perfected our craft, offering a menu of fresh, hearty, and memorable drinks and dishes. <br>We can't wait to welcome you to one of our three locations <br>and share our love for great coffee and good vibes."</p>
+                            <div class="learnmore">
+                                <a href="contact.html" class="button01">CONTACT US</a>
+                            </div>
+                    </div>   
+                </section>
+                <section class="fiveaboutus">
+                    
+                    <div class="fivetopic">
+                        <img class="aboutusimgleft" src="Image/aboutus/story01.png" alt="coffee">
+                        <span class="number">01</span>
+                        <h3 class="fivetitle">Baens</h3>
+                        <P class="five-p">Our coffee beans are carefully selected from organic, <br>sustainable farms around the world. We believe in supporting ethical farming practices while delivering the finest quality beans, <br>ensuring every cup of coffee is not only rich in flavor but also responsibly sourced." </P>
+                    </div>
+                    <div class="fivetopic">
+                        <img class="aboutusimgright" src="Image/aboutus/story02.png" alt="coffee">
+                        <span class="number">02</span>
+                        <h3 class="fivetitle">coffee</h3>
+                        <P class="five-p">Experience the true essence of coffee with our expertly crafted brews. <br>Made from the finest organic beans, each cup is a testament to our dedication to quality and flavor. <br>Whether you prefer a bold espresso or a creamy latte, <br>our coffee is sure to delight your taste buds.</P>
+                    </div>
+                    <div class="fivetopic">
+                        <img class="aboutusimgleft" src="Image/aboutus/story03.png" alt="coffee">
+                        <span class="number">03</span>
+                        <h3 class="fivetitle">sandwiches</h3>
+                        <P class="five-p">Our sandwiches are a perfect blend of freshness. <br>Prepared daily with high-quality ingredients, each sandwich features original recipes that promise a hearty and satisfying meal.<br> From breakfast options to lunch favorites, we have something to please every palate.</P>
+                    </div>
+                    <div class="fivetopic">
+                        <img class="aboutusimgright" src="Image/aboutus/story04.png" alt="coffee">
+                        <span class="number">04</span>
+                        <h3 class="fivetitle">Sweets</h3>
+                        <P class="five-p">Treat yourself to our delectable selection of sweets. <br>Each dessert is crafted with love and attention to detail, <br>offering a perfect balance of flavors that will satisfy your sweet tooth. From pastries to cakes, <br>our sweets are the ideal complement to any meal or coffee break.</P>
+                    </div>
+                    <div class="fivetopic">
+                        <img class="aboutusimgleft" src="Image/aboutus/story05.png" alt="coffee">
+                        <span class="number">05</span>
+                        <h3 class="fivetitle">Our Service</h3>
+                        <P class="five-p">At Caffe303, we believe that great customer service is the cornerstone of a memorable café experience. <br>Our friendly and attentive staff are dedicated to making every visit special, <br>ensuring you feel welcomed and valued from the moment you walk through our doors.</P>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <div id="footername">
+                <h2>Caffe 303</h2>
+            </div>
+            <div id="footer-link">
+                <a href="aboutus.html">ABOUT US</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="menu.html">MENU</a>
+            </div>
+            <div id="snslink">
+                <div class="snsicon">
+                    <a href="https://www.facebook.com"><img src="Image/index/facebook.logo.png" alt="Facebookリンク"></a>
+                    <a href="https://www.instagram.com"><img src="Image/index/instagram.logo.png" alt="Instagramリンク"></a>
+                    <a href="https://www.twitter.com"><img src="Image/index/twitter.logo.png" alt="Twitterリンク"></a>
+                </div>
+                <p>TELL (604) 829-1113</p>
+                <p id="copyrigth">&copy;2024 Caffe303, Inc. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
+   
+</html>

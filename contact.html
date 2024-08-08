@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Caffe 303</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Discover our local café's unique atmosphere and delicious menu. Enjoy expertly crafted coffee, freshly baked pastries, and a cozy ambiance. Visit us to experience the best in local café culture.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- ヘッダー -->
+        <header>
+            <!-- ロゴ -->
+            <a href="index.html" id="logo">
+                <img src="Image/index/CAFFE 303.png" alt="トップページに戻る">
+            </a>
+
+            <!-- PC用ナビゲーション -->
+            <nav id="nav-pc">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                </ul>
+            </nav>
+
+            <!-- スマホ用 -->
+            <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+                <img src="image/index/humberger.png" alt="ナビゲーションを開く">
+            </button>
+            <!-- スマホ用 -->
+            <div id="nav-sp">
+                <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                    <img src="image/index/close.png" alt="ナビゲーションを閉じる">
+                </button>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display='none'"><img src="Image/index/CAFFE 303.png" alt="トップページに戻る"></a>
+                        </li>
+                        <li><a class="menu" href="aboutus.html" onclick="document.getElementById('nav-sp').style.display='none'">ABOUT US</a></li>
+                        <li><a class="menu" href="contact.html" onclick="document.getElementById('nav-sp').style.display='none'">CONTACT</a></li>
+                        <li><a class="menu" href="menu.html" onclick="document.getElementById('nav-sp').style.display='none'">MENU</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <article>
+                <!-- メインビジュアル -->
+                <section id="main-visual">
+                    <div id="main-message">
+                        <h1>Have questions or feedback?</h1>
+                        <p>Your thoughts and inquiries are important to us. <br>Fill out the form below and we’ll respond promptly.</p>
+                    </div>  
+                    <img src="image/Contact/contacttoppage.jpg" ait="people">
+                </section>
+                <!-- contactフォーム -->
+                <h1 id="contactmessage">- CONTACT -</h1>
+                <p id="contactmessage02">At Caffe303, we value our customers and strive to provide the best experience possible. <br>Whether you’re looking for more information about our menu, need assistance with a special request, <br>or simply want to share your thoughts, we’re here to help. <br>Please fill out the contact form below, and a member of our team will get back to you as soon as possible. <br>Your feedback is important to us and helps us continually improve. <br>We look forward to connecting with you!</p>
+                <section id="contact">
+                    
+                    <form>
+                        <div>
+                            <div class="contact-heading">
+                                <label class="contact-label">Your name<span class="contact-span">Required</span></label>
+                            </div>
+                            <div>
+                                <input type="text" name="name" placeholder="Please enter your name" class="contact-taxtbox">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="contact-heading">
+                                <label class="contact-label">Your Email<span class="contact-span">Required</span></label>
+                            </div>
+                            <div>
+                                <input type="text" name="Email" placeholder="Please enter your Email" class="contact-taxtbox">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="contact-heading">
+                                <label class="contact-label">Phone number</label>
+                            </div>
+                            <div>
+                                <input type="text" name="tell" placeholder="Please enter your Phone number" class="contact-taxtbox">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="contact-heading">
+                                <label class="contact-label">Subject<span class="contact-span">Required</span></label>
+                            </div>
+                            <div>
+                                <input type="text" name="Subject" class="contact-taxtbox">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="contact-heading">
+                                <label class="contact-label">Message<span class="contact-span">Required</span></label>
+                            </div>
+                            <div>
+                                <textarea class="contact-textarea" placeholder="Please enter your message" name="message"></textarea>
+                            </div>
+                        </div>
+                        <div id="submitbutton">
+                            <a href=thankyou.html class="button01">SUBMIT</a>
+                        </div>
+                    </form>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <div id="footername">
+                <h2>Caffe 303</h2>
+            </div>
+            <div id="footer-link">
+                <a href="aboutus.html">ABOUT US</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="menu.html">MENU</a>
+            </div>
+            <div id="snslink">
+                <div class="snsicon">
+                    <a href="https://www.facebook.com"><img src="Image/index/facebook.logo.png" alt="Facebookリンク"></a>
+                    <a href="https://www.instagram.com"><img src="Image/index/instagram.logo.png" alt="Instagramリンク"></a>
+                    <a href="https://www.twitter.com"><img src="Image/index/twitter.logo.png" alt="Twitterリンク"></a>
+                </div>
+                <p>TELL (604) 829-1113</p>
+                <p id="copyrigth">&copy;2024 Caffe303, Inc. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Caffe 303</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Discover our local café's unique atmosphere and delicious menu. Enjoy expertly crafted coffee, freshly baked pastries, and a cozy ambiance. Visit us to experience the best in local café culture.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- ヘッダー -->
+        <header>
+            <a href="index.html" id="logo">
+                <img src="Image/index/CAFFE 303.png" alt="トップページに戻る">
+            </a>
+            <nav id="nav-pc">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                </ul>
+            </nav>
+            <!-- スマホ用 -->
+            <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+                <img src="image/index/humberger.png" alt="ナビゲーションを開く">
+            </button>
+            <!-- スマホ用 -->
+            <div id="nav-sp">
+                <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                    <img src="image/index/close.png" alt="ナビゲーションを閉じる">
+                </button>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display='none'"><img src="Image/index/CAFFE 303.png" alt="トップページに戻る"></a>
+                        </li>
+                        <li><a class="menu" href="aboutus.html" onclick="document.getElementById('nav-sp').style.display='none'">ABOUT US</a></li>
+                        <li><a class="menu" href="contact.html" onclick="document.getElementById('nav-sp').style.display='none'">CONTACT</a></li>
+                        <li><a class="menu" href="menu.html" onclick="document.getElementById('nav-sp').style.display='none'">MENU</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <article>
+                <section id="main-visual">
+                    <div id="main-message">
+                        <h1>Caffe 303</h1>
+                        <p>we’re here to make your day <br>- Your Local Coffee Destination in Vancouver</p>
+                    </div>  
+                    <img src="image/index/toppagepic.jpg" ait="coffee">
+                </section>
+                <!-- welcome page -->
+                <section class="welcome">
+                    <div class="welcome-message">
+                        <h1>- Welcome -</h1>
+                         <p>We opened our doors at the Main st location in 2017 with a simple mission: 
+                            <br>to create a welcoming café experience in Vancouver. <br>We look forward to welcoming you to Caffe 303, <br>where great coffee, delicious food, and good vibes come together. <br>Whether you're here for a quick bite, a relaxing coffee break, or a gathering with friends, <br>we're here to make your day brighter and your experience unforgettable.</p>
+                            <div class="learnmore">
+                                <a href="aboutus.html" class="button01">LEARN MORE</a>
+                            </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="collection">
+                        <div>
+                            <img src="Image/index/homepage01.jpg" alt="Espresso Machine">
+                        </div>
+                        <div>
+                            <img src="Image/index/homepage02.jpg" alt="Espresso Machine">
+                        </div>
+                        <div>
+                            <img src="Image/index/homepage03.jpg" alt="Espresso Machine">
+                        </div>
+                        <div>
+                            <img src="Image/index/homepage04.jpg" alt="Espresso Machine">
+                        </div>
+                    </div>   
+                    <div class="collection">
+                        <div>
+                            <img class="collectionimg" src="Image/index/homepage05.jpg" alt="Espresso Machine">
+                        </div>
+                        <div>
+                            <img src="Image/index/homepage06.jpg" alt="Espresso Machine">
+                        </div>
+                        <div>
+                            <img src="Image/index/homepage07.jpg" alt="Espresso Machine">
+                        </div>
+                        <div>
+                            <img src="Image/index/homepage08.jpg" alt="Espresso Machine">
+                        </div>
+                    </div>   
+                </section>
+                <!-- ロケーション＆営業時間 -->
+                <section id="info">
+                    <div id="sessiontitle">
+                        <h1>- LOCATIONS & OPEN HOUR -</h1>
+                    </div>
+                    <div id="allinfo">
+                        <div class="eachinfo">
+                            <h2>Main St</h2>
+                            <img class="cafepic" src="image/index/mainst.jpg" alt="MainStLocation">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10415.82537577654!2d-123.11675925545809!3d49.25827336511924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673e35e3cd297%3A0xf9445484fbf50a01!2sCaffe%20Mira!5e0!3m2!1sja!2sjp!4v1722560297393!5m2!1sja!2sjp" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                            <div>
+                                <div class="foricon">
+                                   
+                                    <h3>Address</h3>
+                                </div>
+                                <p>- 3136 Main St, Vancouver, BC</p>
+                                <div class="foricon">
+                                    
+                                    <h3>Open Hour</h3>
+                                </div>
+                                <p>- Everyday: 7:30am - 6:30pm</p>
+                            </div>
+                        </div>
+                        <div class="eachinfo">
+                            <h2>Downtown</h2>
+                            <img class="cafepic" src="image/index/downtown.jpg" alt="downtownLocation">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5205.776004471265!2d-123.137377411645!3d49.278519386606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673176db5cac5%3A0x6f038c3d5f4afb07!2sCaffe%20Mira!5e0!3m2!1sja!2sjp!4v1722560343116!5m2!1sja!2sjp" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                            <div>
+                                <div class="foricon">
+                                    <h3>Address</h3>
+                                </div>
+                                <p>- 1225 Burrard St, Vancouver, BC</p>
+                                <div class="foricon"> 
+                                    <h3>Open Hour</h3>
+                                </div>
+                                <p>- Weekday: 7:30am - 5:30pm<br>- Weekend: 8:30am - 4:30pm</p>
+                                
+                            </div>
+                        </div>
+                        <div class="eachinfo">
+                            <h2>New Westminster</h2>
+                            <img class="cafepic" src="image/index/newwest.jpg" alt="NewwestLocation">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41688.65195684693!2d-122.98519253707659!3d49.228236165640986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d978d2b48047%3A0x1e6facc43ac86b92!2sCaffe%20Mira!5e0!3m2!1sja!2sjp!4v1722560173379!5m2!1sja!2sjp" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <din class="foricon">
+                                <h3>Address</h3>
+                            </din>
+                            <p>- 28 E Royal Ave Unit 130, New Westminster, BC</p>
+                            <div class="foricon">
+                                
+                                <h3>Open Hour</h3>
+                            </div>
+                            <p>- Weekday: 7:30am - 6:30pm<br>- Weekend: 8:30am - 6:30pm</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="intractionbutton">
+                        <a href="contact.html" class="button01">CONTACT US</a>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <div id="footername">
+                <h2>Caffe 303</h2>
+            </div>
+            <div id="footer-link">
+                <a href="aboutus.html">ABOUT US</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="menu.html">MENU</a>
+            </div>
+            <div id="snslink">
+                <div class="snsicon">
+                    <a href="https://www.facebook.com"><img src="Image/index/facebook.logo.png" alt="Facebookリンク"></a>
+                    <a href="https://www.instagram.com"><img src="Image/index/instagram.logo.png" alt="Instagramリンク"></a>
+                    <a href="https://www.twitter.com"><img src="Image/index/twitter.logo.png" alt="Twitterリンク"></a>
+                </div>
+                <p>TELL (604) 829-1113</p>
+                <p id="copyrigth">&copy;2024 Caffe303, Inc. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

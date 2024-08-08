@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Caffe 303</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Discover our local café's unique atmosphere and delicious menu. Enjoy expertly crafted coffee, freshly baked pastries, and a cozy ambiance. Visit us to experience the best in local café culture.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- ヘッダー -->
+        <header>
+            <a href="index.html" id="logo">
+                <img src="Image/index/CAFFE 303.png" alt="トップページに戻る">
+            </a>
+            <nav id="nav-pc">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                </ul>
+            </nav>
+             <!-- スマホ用 -->
+             <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+                <img src="image/index/humberger.png" alt="ナビゲーションを開く">
+            </button>
+            <!-- スマホ用 -->
+            <div id="nav-sp">
+                <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                    <img src="image/index/close.png" alt="ナビゲーションを閉じる">
+                </button>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display='none'"><img src="Image/index/CAFFE 303.png" alt="トップページに戻る"></a>
+                        </li>
+                        <li><a class="menu" href="aboutus.html" onclick="document.getElementById('nav-sp').style.display='none'">ABOUT US</a></li>
+                        <li><a class="menu" href="contact.html" onclick="document.getElementById('nav-sp').style.display='none'">CONTACT</a></li>
+                        <li><a class="menu" href="menu.html" onclick="document.getElementById('nav-sp').style.display='none'">MENU</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <article>
+                <section id="main-visual">
+                    <div id="main-message">
+                        <h1>MENU</h1>
+                    </div>  
+                    <img src="image/Menu/menu.png" ait="coffee">
+                </section>
+                <section class="mainwidth">
+                    <h1 id="categorytitle">Categry</h1>
+                    <div id="menucategory">
+                        <div>
+                            <h3>Coffee</h3>
+                            <a href="menu.html#coffeemenu"><img class="categoryimg" src="Image/Menu/coffeemenu.png" alt="coffee"></a>
+                        </div>
+                        <div>
+                            <h3>Non-coffee</h3>
+                            <a href="menu.html#noncoffeemenu"><img class="categoryimg" src="Image/Menu/noncoffeemenu.png" alt="coffee"></a>
+                        </div>
+                        <div>
+                            <h3>Sandwich</h3>
+                            <a href="menu.html#sandwichmenu"><img class="categoryimg" src="Image/Menu/sandwichmenu.png" alt="coffee"></a>
+                        </div>
+                        <div>
+                            <h3>Sweets</h3>
+                            <a href="menu.html#sweetsmenu"><img class="categoryimg" src="Image/Menu/sweetsmenu.png" alt="coffee"></a>
+                        </div>
+                    </div>
+                </section>
+                <section class="mainwidth">
+                    <div id="coffeemenu">
+                        <h2>COFFEE</h2>
+                        <div class="menutext">
+                            <h3>Drip coffee(Medium/Dark roast)</h3>
+                            <P>$3.50</P>
+                        </div>
+                        <div class="menutext">
+                            <h3> Dubble Espresso</h3>
+                            <P>$3.80</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>Americano</h3>
+                            <P>$3.80</P>
+                        </div>
+                        <div class="menutext">
+                            <h3> Cartado</h3>
+                            <P>$4.00</P>
+                        </div>
+                        <div class="menutext">
+                            <h3> Cappuccino</h3>
+                            <P>$4.00</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>Latte</h3>
+                            <P>$4.50</P>
+                        </div>
+                        
+                    </div>
+                    <div id="noncoffeemenu">
+                        <h2>NON-COFFEE</h2>
+                        <div class="menutext">
+                            <h3>Matcha Latte</h3>
+                            <P>$5.50</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>Chai Latte</h3>
+                            <P>$5.00</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>London Fog</h3>
+                            <P>$4.50</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>- Hot Chocolate</h3>
+                            <P>$4.00</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>- Lemonade</h3>
+                            <P>$4.50</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>- Hot Tea</h3>
+                            <P>$3.50</P>
+                        </div>
+                    </div>
+                    <div id="sandwichmenu">
+                        <h2>SANDWICH</h2>
+                        <div class="menutext">
+                            <h3>ALT</h3>
+                            <P>$7.50</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>BLT</h3>
+                            <P>$7.50</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>Italian sausage</h3>
+                            <P>$8.00</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>Veggie</h3>
+                            <P>$7.50</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>Roasted Ham</h3>
+                            <P>$8.50</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>Chicken</h3>
+                            <P>$8.50</P>
+                        </div>
+                    </div>
+                    <div id="sweetsmenu">
+                        <h2>SWEETS</h2>
+                        <div class="menutext">
+                            <h3>Chocochip cookie</h3>
+                            <P>$3.50</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>Almond croissant</h3>
+                            <P>$4.50</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>Chocolate croissant</h3>
+                            <P>$4.50</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>Butter scone</h3>
+                            <P>$3.50</P>
+                        </div>
+                        <div class="menutext">
+                            <h3>Banana Loaf</h3>
+                            <P>$3.50</P>
+                        </div>
+                        
+                    </div>
+                </section>
+                    
+            </article>
+        </main>
+        <footer>
+            <div id="footername">
+                <h2>Caffe 303</h2>
+            </div>
+            <div id="footer-link">
+                <a href="aboutus.html">ABOUT US</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="menu.html">MENU</a>
+            </div>
+            <div id="snslink">
+                <div class="snsicon">
+                    <a href="https://www.facebook.com"><img src="Image/index/facebook.logo.png" alt="Facebookリンク"></a>
+                    <a href="https://www.instagram.com"><img src="Image/index/instagram.logo.png" alt="Instagramリンク"></a>
+                    <a href="https://www.twitter.com"><img src="Image/index/twitter.logo.png" alt="Twitterリンク"></a>
+                </div>
+                <p>TELL (604) 829-1113</p>
+                <p id="copyrigth">&copy;2024 Caffe303, Inc. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
