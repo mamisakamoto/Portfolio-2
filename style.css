@@ -129,7 +129,18 @@ header {
     line-height: 40px;
     align-items: center;
  }
- 
+
+ .imagecollection img{
+     display: block;
+     transition-duration: 0.5s;
+ }
+
+.imagecollection img: hover {
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
+}
+
+
 
  .learnmore {
     margin-top: 50px;
